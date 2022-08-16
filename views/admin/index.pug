@@ -1,7 +1,7 @@
 extends ../layout
 
 block content
-  h1= title  
+  h1= title
   a(href='admin/news/add') Dodaj newsa
   table
     tr
@@ -9,7 +9,7 @@ block content
       th tytuł
       th data dodania
       th akcja
-    each item, index in data 
+    each item, index in data
       tr
         td=index
         td=item.title
